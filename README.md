@@ -33,19 +33,19 @@ python extract_image_features.py --dataset_dir ./data/fakeddit/ --image_dir ${yo
 
 ## Running
 
-### (1) train MTTV on Fakediit with 6-way labels
+### (1) train MTTV on Fakeddit with 6-way labels
 
 ```shell script
 python train.py --task fakeddit --label_type 6_way_label --batch_sz 32 --gradient_accumulation_steps 20 --max_epochs 20 --name fakeddit_6_way --bert_model bert-base-uncased --global_image_embeds 5 --region_image_embeds 20 --num_image_embeds 25
 ```
 
-### (2) train MTTV on Fakediit with 3-way labels
+### (2) train MTTV on Fakeddit with 3-way labels
 
 ```shell script
 python train.py --task fakeddit --label_type 3_way_label --batch_sz 32 --gradient_accumulation_steps 20 --max_epochs 20 --name fakeddit_3_way --bert_model bert-base-uncased --global_image_embeds 5 --region_image_embeds 20 --num_image_embeds 25
 ```
 
-### (3) train MTTV on Fakediit with 2-way labels
+### (3) train MTTV on Fakeddit with 2-way labels
 
 ```shell script
 python train.py --task fakeddit --label_type 2_way_label --batch_sz 32 --gradient_accumulation_steps 20 --max_epochs 20 --name fakeddit_2_way --bert_model bert-base-uncased --global_image_embeds 5 --region_image_embeds 20 --num_image_embeds 25
