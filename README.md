@@ -64,7 +64,7 @@ Before using scalable classifier, you need to train MTTV on Fakediit with 6-way 
 Using `parameter_tau` to set $ \tau $ of scalable classifier.
 
 ```shell script
-python scalable_classifier.py --checkpoint_dir ./save/fakeddit_sim_test --checkpoint_name checkpoint_10.pt --parameter_tau 2.1
+python scalable_classifier.py --checkpoint_dir ./save/fakeddit_6_way --checkpoint_name checkpoint_10.pt --parameter_tau 1.0
 ```
 
 ## Cite our work
