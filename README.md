@@ -28,7 +28,7 @@ Weibo: [https://github.com/yaqingwang/EANN-KDD18](https://github.com/yaqingwang/
 
 ```shell script
 python extract_image_features.py --dataset_dir ./data/weibo/ --image_dir ${your_weibo_image_dir} --feature_dir ./data/weibo/
-python extract_image_features.py --dataset_dir ./data/weibo/ --image_dir ${your_fakeddit_image_dir} --feature_dir ./data/fakeddit/
+python extract_image_features.py --dataset_dir ./data/fakeddit/ --image_dir ${your_fakeddit_image_dir} --feature_dir ./data/fakeddit/
 ```
 
 ## Running
