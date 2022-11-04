@@ -56,7 +56,7 @@ def test_scale_classifier(args):
 
 
 def cli_main():
-    parser = argparse.ArgumentParser(description="extract image features")
+    parser = argparse.ArgumentParser(description="evaluate MTTV with scalabel classifier")
     get_args(parser)
     args, remaining_args = parser.parse_known_args()
     assert remaining_args == [], remaining_args
